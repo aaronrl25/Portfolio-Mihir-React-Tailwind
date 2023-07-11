@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { bannerImg } from "../../assets/index";
 
 const RightBanner = () => {
@@ -12,6 +12,6 @@ const RightBanner = () => {
       <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
     </div>
   );
-}
+};
 
-export default RightBanner
+export default RightBanner;
