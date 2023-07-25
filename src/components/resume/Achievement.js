@@ -11,7 +11,6 @@ const Achievement = () => {
       <div className="flex-1">
         <div className="py-6 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">
-            2016 - Present
           </p>
           <h2 className="text-4xl font-bold">Awards</h2>
         </div>

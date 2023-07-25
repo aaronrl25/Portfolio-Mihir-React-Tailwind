@@ -13,6 +13,12 @@ import projectEleven from "./images/projects/11.png";
 import projectTwelve from "./images/projects/12.png";
 import projectThirteen from "./images/projects/13.png";
 
+import ClientsOne from "./images/Clients/1.jpeg";
+import ClientsTwo from "./images/Clients/2.png";
+import ClientsThree from "./images/Clients/4.png";
+import ClientsFour from "./images/Clients/6.png";
+import ClientsFive from "./images/Clients/15.png";
+
 import testimonialOne from "./images/testmonial/testimonialOne.jpg";
 import testimonialTwo from "./images/testmonial/testimonialTwo.jpeg";
 import testimonialThree from "./images/testmonial/testimonialThree.jpeg";
@@ -39,4 +45,9 @@ export {
   testimonialThree,
   quote,
   contactImg,
+  ClientsOne,
+  ClientsTwo,
+  ClientsThree,
+  ClientsFour,
+  ClientsFive,
 };

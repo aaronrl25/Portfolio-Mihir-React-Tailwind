@@ -13,8 +13,8 @@ const ContactLeft = () => {
         <p className="text-base text-gray-400 tracking-wide">
           I am a passionate and dedicated Mobile and Web Developer with 9 years
           of professional experience. I possess the skills and knowledge needed
-          to make your project a success.o learn more. Let's create something
-          remarkable together!
+          to make your project a success Let's create something remarkable
+          together!
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+1 773 708 2882</span>

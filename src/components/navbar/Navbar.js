@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaLinkedinIn } from "react-icons/fa";
-import { SiGithub, SiGmail } from "react-icons/si";
 import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
@@ -58,22 +56,7 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-              <div className="flex flex-col gap-4">
-                <h2 className="text-base uppercase font-titleFont mb-4">
-                  Find me in
-                </h2>
-                <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <SiGithub />
-                  </span>
-                  <span className="bannerIcon">
-                    <SiGmail />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
-                </div>
-              </div>
+
               <span
                 onClick={() => setShowMenu(false)}
                 className="absolute top-4 right-4 text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer">
